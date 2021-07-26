@@ -36,10 +36,10 @@ jobs:
 #       - name: have github action build maven project
 #         run: mvn -B package --file pom.xml
         
-#       - name: list the current directory
-#         run: ls -a
+      - name: list the current directory
+        run: ls -a
         
-#       - name: what is in target folder
-#         run: |
-#          cd target
-#          ls -a
+      - name: what is in target folder
+        run: |
+         cd target
+         ls -a
